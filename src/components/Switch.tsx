@@ -2,7 +2,7 @@ import { useTheme } from "../hook/useTheme";
 
 export const Switch = () => {
     
-    const [theme, handleChange] = useTheme('dark');
+    const [theme, handleChange] = useTheme('light');
 
     return (
         <div className="container-switch">
