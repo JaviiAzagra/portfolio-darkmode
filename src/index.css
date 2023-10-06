@@ -8,6 +8,7 @@
 @import url('./styles/lottieFile.css');
 @import url('./styles/profile.css');
 @import url('./styles/About.css');
+@import url('./styles/Navbar.scss');
 
 *{ 
   margin: 0;
