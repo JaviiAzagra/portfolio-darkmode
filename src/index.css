@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
+@import url("https://fonts.cdnfonts.com/css/cascadia-code");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('./styles/var.css');
+@import url('./styles/card.css');
+@import url('./styles/switch.css');
+@import url('./styles/lottieFile.css');
+@import url('./styles/profile.css');
+@import url('./styles/About.css');
+
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cascadia Code", sans-serif;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background-color: var(--background);
+  color: var(--text-primary);
+  transition: all .5s ease-in-out;
+}
+
+a{
+  color: var(--text-primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* CONTAINER MAIN */
+.container-main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  position: relative;
+}

@@ -1,0 +1,129 @@
+.containerabout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-bottom: 200px;
+}
+
+/* .titleabout {
+  padding-bottom: 10%;
+}
+ */
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.texttitle > h2 {
+  font-size: 50px;
+}
+
+.textinfo > h3 {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20%;
+  justify-content: center;
+}
+
+.textinfo {
+  display: flex;
+  line-height: 250%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.img {
+  background-image: url("../assets/logo.jpg");
+  width: 25rem;
+  height: 25rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: var(--border);
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.img:hover {
+  background-image: url("../assets/logo.jpg");
+  width: 30rem;
+  height: 30rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: var(--border);
+
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.cv > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 10px;
+  padding: 10%;
+  width: 178px;
+}
+
+.habilities{
+  display: flex;
+  gap: 4%;
+  justify-content: center;
+  padding-top: 6%;
+}
+
+.habilities>img{
+  width: 4%;
+}
+
