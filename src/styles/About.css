@@ -127,3 +127,39 @@
   width: 4%;
 }
 
+@media screen and (max-width: 800px) {
+  .about{
+    display: flex;
+    align-items: center;
+    padding-top: 20%;
+    gap: 10px;
+  }
+
+  .img{
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .img:hover{
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .texttitle{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+}
