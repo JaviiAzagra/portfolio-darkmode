@@ -60,26 +60,31 @@ nav {
   font-size: 1rem;
   width: 100%;
   height: auto;
+  padding: 20px 40px 20px 40px;
   display: flex;
   justify-content: space-between;
+  justify-items: center;
   align-items: center;
-  padding: 1%;
+  align-content: center;
   position: fixed;
   background-color: var(--background);
   top: 0;
   left: 0;
-  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
   z-index: 200;
+  align-items: center;
 
   @media (max-width: 400px) {
-    /* padding: 25px 30px 25px 30px; */
+    padding: 25px 30px 25px 30px;
   }
 
   ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     gap: 3rem;
-    align-items: center;
+    padding-right: 6%;
 
     
 
@@ -109,4 +114,8 @@ nav {
   cursor: pointer;
   color: var(--text-primary);
   padding-left: 6%;
+}
+
+.switchnavbar{
+  width: 140px;
 }
