@@ -65,6 +65,10 @@
   width: 100%;
 }
 
+.card-hero>h4{
+  text-align: center;
+}
+
 .hero {
   display: flex;
   align-items: flex-start;
@@ -121,11 +125,6 @@
     border-radius: 10px;
   }
 
-  &__btn:hover {
-    background-color: var(--background);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-  }
 }
 /* .icons.cv {
   color: black;
@@ -173,6 +172,12 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .card-hero>h4{
+    text-align: center;
+    font-size: 2rem;
+  }
+  
 
   .hero {
     &--container { 
