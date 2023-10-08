@@ -13,7 +13,6 @@
 *{ 
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Cascadia Code", sans-serif;
 }
 
@@ -37,7 +36,7 @@ a:hover{
 }
 
 /* CONTAINER MAIN */
-.container-main{
+/* .container-main{
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,6 +44,6 @@ a:hover{
   align-items: center;
   gap: 2rem;
   position: relative;
-}
+} */
 
 

@@ -70,11 +70,13 @@
   .grid-cards {
     grid-template-columns: 1fr 1fr;
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 
   .card{
-    width: 23rem;
+    
+    width: 20rem;
   }
 }
 
