@@ -76,7 +76,10 @@ nav {
   align-items: center;
 
   @media (max-width: 400px) {
-    padding: 25px 30px 25px 30px;
+    padding: 25px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
   }
 
   ul {
