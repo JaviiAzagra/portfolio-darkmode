@@ -68,6 +68,7 @@ nav {
   align-content: center;
   position: fixed;
   background-color: var(--background);
+  transition: all .5s ease-in-out;
   top: 0;
   left: 0;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);

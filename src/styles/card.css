@@ -1,24 +1,13 @@
 /* CONTAINER CARDS */
 .grid-cards {
-  width: 90%;
-  display: grid;
+  justify-content: center;
+  display: flex;
   gap: 2.5rem;
   grid-template-columns: repeat(3, 1fr);
   padding-bottom: 2rem;
 }
 
-@media screen and (max-width:800px) {
-  .grid-cards {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
-@media screen and (max-width:650px) {
-  .grid-cards {
-    grid-template-columns: 1fr;
-
-  }
-}
 
 /* CARD */
 .card {
@@ -27,8 +16,10 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1rem;
   box-shadow: var(--shadow);
+  width: 30rem;
 }
 
 .card .card-image {
@@ -73,4 +64,23 @@
 
 .card .card-container-buttons button:active {
   background-color: var(--accent);
+}
+
+@media screen and (max-width:800px) {
+  .grid-cards {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card{
+    width: 23rem;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .grid-cards {
+    grid-template-columns: 1fr;
+
+  }
 }

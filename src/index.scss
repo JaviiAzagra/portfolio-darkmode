@@ -7,7 +7,7 @@
 @import url('./styles/switch.css');
 @import url('./styles/lottieFile.css');
 @import url('./styles/profile.css');
-@import url('./styles/About.css');
+@import url('./styles/About.scss');
 
 
 *{ 
@@ -19,7 +19,6 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
   background-color: var(--background);
   color: var(--text-primary);
   transition: all .5s ease-in-out;
@@ -29,10 +28,12 @@ a{
   color: var(--text-primary);
   text-decoration: none;
   cursor: pointer;
+  transition: all .5s ease-in-out;
 }
 
 a:hover{
   text-decoration: underline;
+  transition: all .5s ease-in-out;
 }
 
 /* CONTAINER MAIN */
@@ -42,7 +43,8 @@ a:hover{
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  text-align: center;
   gap: 2rem;
   position: relative;
 }
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/About.css";
+import "../styles/About.scss";
 import pdf from "./JavierAzagraCV.pdf";
 import linux from "../assets/linux-original.svg"
 import html from "../assets/html5.svg"
@@ -13,35 +13,42 @@ import mongo from "../assets/mongodb-original-wordmark.svg"
 
 const About = () => {
   return (
-    <div className='containerabout'>
-        <div className='titleabout'>
-            {/* <h1>[ About Me ]</h1> */}
-        </div>
-        <div className='about'>
-            <div className='img'>
+    <div className="herocontainer" id="Home">
+      <div className="hero">
+        <div className="hero--container">
+        <div className="img">
+            {/* <img className="logo" src={hero.image} alt="" /> */}
+          </div>
+          <div className="card-hero">
+            <h4>Full Stack Developer</h4>
+            <h1 className="myname">Javier Azagra García</h1>
+            <div className="info">
+              <p>
+                📍 Madrid
+              </p>
+              <p>
+                📅 12/06/2000
+              </p>
+              <p>
+                <a href="">📩 javiazagra12@gmail.com</a>
+              </p>
+              <p>
+                <a href="https://github.com/JaviiAzagra" rel="noreferrer" target="_blank">
+                  🗂️ GitHub
+                </a>
+              </p>
             </div>
-            <div className='text'>
-              <div className='texttitle'>
-              <h2>Full Stack Developer</h2>
-              </div>
-              <div className='textinfo'>
-              <h3> [ Hi, I'm Javier Azagra ] </h3>
-                <p>📍Madrid / Spain</p>
-                <p>📅 12/06/2000</p>
-                <p>📩 javiazagra12@gmail.com</p>
-                <a href='https://github.com/JaviiAzagra' target='_blank'>🗂️ GitHub</a>
-              </div>
-            </div>
+          </div>
         </div>
-        <div className="cv">
+      </div>
+      <div className="cv">
         <a
           className="cv__btn"
           href={pdf}
           download="JavierAzagraCV.pdf"
           rel="noopener noreferrer"
           target="_blank"
-        >
-          <p>💾 Download CV</p>
+        >💾 Download CV
         </a>
       </div>
       <div className='habilities'>
