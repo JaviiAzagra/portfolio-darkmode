@@ -26,7 +26,7 @@
   }
 }
 
-.img:hover {
+/* .img:hover {
   background-image: url("../assets/logo.jpg");
   width: 30rem;
   height: 30rem;
@@ -58,7 +58,7 @@
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
   }
-}
+} */
 
 .herocontainer {
   min-height: 100vh;
@@ -126,10 +126,6 @@
   }
 
 }
-/* .icons.cv {
-  color: black;
-  margin-right: 100px;
-} */
 
 .habilities {
   padding-top: 2%;
@@ -142,6 +138,11 @@
 .habilities > img {
   width: 3.5rem;
   padding-bottom: 5%;
+}
+
+.info{
+  line-height: 200%;
+  padding-top: 6%;
 }
 
 @media screen and (max-width: 800px) {

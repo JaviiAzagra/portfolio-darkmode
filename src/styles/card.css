@@ -22,12 +22,34 @@
   width: 30rem;
 }
 
-.card .card-image {
+.card .card-image-clinica {
   width: 100%;
   min-height: 120px;
   border-radius: 5px;
-  background-color: rgba(82, 77, 77, 0.397);
-  background: linear-gradient(to right, #232526, #414345);
+  background-image: url("../assets/clinicamedica.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card .card-image-fourcorners {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 5px;
+  background-image: url("../assets/fourcorners2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card .card-image-luxury {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 5px;
+  background-image: url("../assets/luxury.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card .card-title {
@@ -46,8 +68,10 @@
   gap: 2rem;
 }
 
-.card .card-container-buttons button {
+.card .card-container-buttons a {
   flex: 1;
+  text-align: center;
+  text-decoration: none;
   padding: .5rem;
   cursor: pointer;
   font-size: 1rem;
@@ -64,6 +88,13 @@
 
 .card .card-container-buttons button:active {
   background-color: var(--accent);
+}
+
+.title-projects>h3{
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 3%;
+  padding-top: 8%;
 }
 
 @media screen and (max-width:800px) {

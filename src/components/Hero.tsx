@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/About.scss";
+import "../styles/Hero.scss";
 import pdf from "./JavierAzagraCV.pdf";
 import linux from "../assets/linux-original.svg"
 import html from "../assets/html5.svg"
@@ -11,7 +11,7 @@ import node from "../assets/nodejs-original-wordmark.svg"
 import mongo from "../assets/mongodb-original-wordmark.svg"
 
 
-const About = () => {
+const Hero = () => {
   return (
     <div className="herocontainer" id="Home">
       <div className="hero">
@@ -65,4 +65,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Hero
