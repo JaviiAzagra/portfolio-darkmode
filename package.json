@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.4.7",
+    "@vercel/analytics": "^1.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "sass": "^1.69.0"

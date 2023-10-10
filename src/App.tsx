@@ -6,6 +6,7 @@ import { Title } from "./components/Title";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import More from "./components/More";
+import { Analytics } from '@vercel/analytics/react';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <About/>
       <LayoutCards />
       <More/>
+      <Analytics/>
     </div>
   )
 }
