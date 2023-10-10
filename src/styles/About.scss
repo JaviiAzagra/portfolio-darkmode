@@ -1,0 +1,49 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--background2);
+  transition: all .5s ease-in-out;
+}
+.about-card {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.about-card > h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 3%;
+}
+
+.about-p {
+  text-align: center;
+  line-height: 250%;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    padding-top: 15%;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about {
+    padding-top: 15%;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .about {
+    padding-top: 15%;
+    padding-bottom: 20px;
+  }
+}

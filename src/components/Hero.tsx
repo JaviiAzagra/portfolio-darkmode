@@ -30,7 +30,7 @@ const Hero = () => {
                 📅 12/06/2000
               </p>
               <p>
-                <a href="">📩 javiazagra12@gmail.com</a>
+                <a href="mailto:javiazagra12@gmail.com">📩 javiazagra12@gmail.com</a>
               </p>
               <p>
                 <a href="https://github.com/JaviiAzagra" rel="noreferrer" target="_blank">

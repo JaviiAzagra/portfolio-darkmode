@@ -4,6 +4,8 @@ import { MyProfile } from "./components/Perfil";
 import { Switch } from "./components/Switch";
 import { Title } from "./components/Title";
 import Hero from "./components/Hero";
+import About from "./components/About";
+import More from "./components/More";
 
 
 const App = () => {
@@ -12,7 +14,9 @@ const App = () => {
       <Navbar/>
       <Title />
       <Hero/>
+      <About/>
       <LayoutCards />
+      <More/>
     </div>
   )
 }

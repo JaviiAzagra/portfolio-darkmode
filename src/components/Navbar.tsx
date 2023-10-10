@@ -38,7 +38,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="#Button">Experience</a>
+            <a href="#Experience">Experience</a>
           </li>
 
           <li>

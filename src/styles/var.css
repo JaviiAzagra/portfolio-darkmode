@@ -1,5 +1,6 @@
 :root {
     --background: #f2f2f2;
+    --background2: white;
     --text-primary: #0f0f0f;
     --text-secondary: #4e4e4e;
     --accent: #dfb017;
@@ -11,6 +12,7 @@
 
 [data-theme='dark'] {
     --background: rgb(39, 39, 39);
+    --background2: rgb(51, 51, 51);
     --text-primary: #f2f2f2;
     --text-secondary: #a7a4a4;
     --accent: #6a5acd;

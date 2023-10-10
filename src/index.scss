@@ -8,6 +8,7 @@
 @import url('./styles/lottieFile.css');
 @import url('./styles/profile.css');
 @import url('./styles/Hero.scss');
+@import url('./styles/About.scss');
 
 
 *{ 
@@ -34,16 +35,4 @@ a:hover{
   text-decoration: underline;
   transition: all .5s ease-in-out;
 }
-
-/* CONTAINER MAIN */
-/* .container-main{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 2rem;
-  position: relative;
-} */
-
 
