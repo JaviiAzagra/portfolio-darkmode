@@ -6,7 +6,7 @@ export const Switch = () => {
 
     return (
         <div className="container-switch">
-            <span></span>
+            <span>Change Theme</span>
             <label className="switch">
                 <input type="checkbox" onChange={handleChange} checked={theme === 'dark'} />
                 <span className="slider"></span>

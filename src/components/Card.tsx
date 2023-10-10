@@ -2,9 +2,9 @@ export const Card = () => {
     console.log('card')
     return (
         <div className="card">
-            <div className="card-image-clinica"></div>
-            <h4 className="card-title">Clínica Medica</h4>
-            <p className="card-description">Thesis make with React</p>
+            <div className="card-image-clinica"></div>  
+                <h4 className="card-title">Clínica Medica</h4>
+                <p className="card-description">Thesis make with React</p>
             <div className="card-container-buttons">
                 <a href="http://healthalgorithm.es/" target="_blank">Page</a>
                 <a href="https://github.com/JaviiAzagra/front-proyectofinal" target="_blank">GitHub</a>
@@ -43,6 +43,51 @@ export const Card3 = () => {
     )
 }
 
+export const Card4 = () => {
+    console.log('card')
+    return (
+        <div className="card">
+            <div className="card-image-cine"></div>
+            <h4 className="card-title">The Cinephile</h4>
+            <p className="card-description">Luxury Cars page make with Angular</p>
+            <div className="card-container-buttons">
+                <a href="https://luxury-cars-two.vercel.app/" target="_blank">Page</a>
+                <a href="https://github.com/JaviiAzagra/Luxury-Cars-Angular-Project" target="_blank">GitHub</a>
+            </div>
+        </div>
+    )
+}
+
+export const Card5 = () => {
+    console.log('card')
+    return (
+        <div className="card">
+            <div className="card-image-luxury"></div>
+            <h4 className="card-title">Luxury Cars</h4>
+            <p className="card-description">Luxury Cars page make with Angular</p>
+            <div className="card-container-buttons">
+                <a href="https://luxury-cars-two.vercel.app/" target="_blank">Page</a>
+                <a href="https://github.com/JaviiAzagra/Luxury-Cars-Angular-Project" target="_blank">GitHub</a>
+            </div>
+        </div>
+    )
+}
+
+export const Card6 = () => {
+    console.log('card')
+    return (
+        <div className="card">
+            <div className="card-image-luxury"></div>
+            <h4 className="card-title">Luxury Cars</h4>
+            <p className="card-description">Luxury Cars page make with Angular</p>
+            <div className="card-container-buttons">
+                <a href="https://luxury-cars-two.vercel.app/" target="_blank">Page</a>
+                <a href="https://github.com/JaviiAzagra/Luxury-Cars-Angular-Project" target="_blank">GitHub</a>
+            </div>
+        </div>
+    )
+}
+
 export const LayoutCards = () => {
     return (
         <div className="title-projects" id="Projects">
@@ -51,6 +96,9 @@ export const LayoutCards = () => {
             <Card />
             <Card2 />
             <Card3 />
+            <Card4 />
+            <Card5 />
+            <Card6 />
         </div>
         </div>
         

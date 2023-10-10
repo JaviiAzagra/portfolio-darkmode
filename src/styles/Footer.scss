@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    &--copy{
+        p{
+            color: white;
+        }
+    }
+
+    &--logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        a{
+            display: flex;
+            align-items: center;
+        }
+
+        svg{
+            width: 20px;
+            fill: white;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  
+}
+
+@media screen and (max-width: 290px) {
+  
+}

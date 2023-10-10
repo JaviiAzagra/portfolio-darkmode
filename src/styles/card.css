@@ -2,6 +2,7 @@
 .grid-cards {
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
   gap: 2.5rem;
   grid-template-columns: repeat(3, 1fr);
   padding-bottom: 2rem;
@@ -45,6 +46,16 @@
   min-height: 120px;
   border-radius: 5px;
   background-image: url("../assets/luxury.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card .card-image-cine {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 5px;
+  background-image: url("../assets/thecinephile.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -102,10 +113,18 @@
 
 @media screen and (max-width: 800px) {
   .grid-cards {
-    grid-template-columns: 1fr 1fr;
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  .title-projects{
+    padding-top: 25%;
+    padding-bottom: 25%;
+
+    h3{
+      padding-bottom: 20px;
+    }
   }
 
   .card {
@@ -116,5 +135,13 @@
 @media screen and (max-width: 650px) {
   .grid-cards {
     grid-template-columns: 1fr;
+  }
+
+  .title-projects{
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+  .title-projects>h3{
+    padding-bottom: 5%;
   }
 }

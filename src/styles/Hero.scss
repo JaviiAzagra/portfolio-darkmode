@@ -39,7 +39,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 3%;
 
   &--container {
     display: flex;
@@ -112,6 +112,7 @@
 }
 
 @media screen and (max-width: 800px) {
+
   .img {
     width: 15rem;
     height: 15rem;
@@ -142,6 +143,7 @@
   
 
   .hero {
+    padding-top: 10%;
     &--container { 
       display: flex;
       flex-direction: column;
@@ -179,9 +181,6 @@
 
 
 @media screen and (max-width: 430px) {
-  .herocontainer {
-    padding-top: 15%;
-  }
 
   .hero {
     display: flex;

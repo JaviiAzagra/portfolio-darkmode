@@ -7,17 +7,22 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import More from "./components/More";
 import { Analytics } from '@vercel/analytics/react';
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 const App = () => {
   return (
     <div className="container-main">
       <Navbar/>
+      <Switch/>
       <Title />
       <Hero/>
       <About/>
       <LayoutCards />
       <More/>
+      <Contact/>
+      <Footer/>
       <Analytics/>
     </div>
   )

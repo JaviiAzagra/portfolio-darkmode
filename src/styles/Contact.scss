@@ -1,0 +1,34 @@
+.containercontact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containercontact>h3{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 3%;
+  }
+  
+
+.contact a {
+    font-size: 18px;
+    text-align: center;
+}
+
+.containercontact{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}

@@ -6,7 +6,7 @@
     --accent: #dfb017;
     --accent-hover: #cea315; 
     --border: #1f1e1e;
-    --shadow: 7px 15px 13px -4px #00000056;
+    --shadow: -3px 10px 20px -3px #00000056;
     --border: 3px solid black;
 }
 
@@ -18,6 +18,6 @@
     --accent: #6a5acd;
     --accent-hover: #5b4cbe; 
     --border: #696969;
-    --shadow: 7px 15px 13px -4px #ffffff1b;
+    --shadow: -3px 10px 20px -3px #ffffff1b;
     --border: 3px solid white;
 }

@@ -5,9 +5,9 @@ const More = () => {
   return (
     <div className='containermore' id='Experience'>
 
-        <div>
+        <div className='container'>
             <h3>[ Education ]</h3>
-            <div className='container'>
+            <div >
 
               <div className='container--text'>
               <p className="name">🔲 Bootcamp Full Stack Developer Full Time</p>
@@ -37,9 +37,9 @@ const More = () => {
             
         </div>
 
-        <div>
+        <div className='container'>
           <h3>[ Experience ]</h3>
-          <div className='container'>
+          <div>
 
                 <div className='container--text'>
                 <p className="name">🔲 Técnico de soporte IT</p>
@@ -56,9 +56,9 @@ const More = () => {
               </div>
         </div>
 
-        <div>
+        <div className='container'>
           <h3>[ Languages ]</h3>
-          <div className='container'>
+          <div className='container--textcontainer'>
                 <div className='container--text'>
                     <p className='site'>Spanish -{'>'} Native</p>
                 </div>

@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--background2);
@@ -28,22 +27,23 @@
 }
 
 @media screen and (max-width: 800px) {
+
   .about {
-    padding-top: 15%;
-    padding-bottom: 20px;
+    padding-top: 25%;
+    padding-bottom: 25%;
   }
 }
 
 @media screen and (max-width: 430px) {
   .about {
-    padding-top: 15%;
-    padding-bottom: 20px;
+    padding-top: 25%;
+    padding-bottom: 25%;
   }
 }
 
 @media screen and (max-width: 290px) {
   .about {
-    padding-top: 15%;
-    padding-bottom: 20px;
+    padding-top: 25%;
+    padding-bottom: 25%;
   }
 }
