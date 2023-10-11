@@ -1,34 +1,54 @@
-.containercontact{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.containercontact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact p {
-    font-size: 18px;
-    text-align: center;
+  font-size: 18px;
+  text-align: center;
 }
 
-.contact{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.containercontact>h3{
-    text-align: center;
-    font-size: 2.5rem;
-    padding-bottom: 3%;
-  }
-  
+.containercontact > h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 3%;
+}
 
 .contact a {
-    font-size: 18px;
-    text-align: center;
+  font-size: 18px;
+  text-align: center;
 }
 
-.containercontact{
-    padding-top: 200px;
-    padding-bottom: 200px;
+.containercontact {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .contact > p {
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .contact > p {
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .contact > p {
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+  }
 }
