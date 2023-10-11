@@ -61,6 +61,26 @@
   background-size: cover;
 }
 
+.card .card-image-dado {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 5px;
+  background-image: url("../assets/dado2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card .card-image-pokemon {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 5px;
+  background-image: url("../assets/poke.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .card .card-title {
   font-size: 1.2rem;
   font-weight: bold;

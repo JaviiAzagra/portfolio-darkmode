@@ -4,7 +4,7 @@ export const Card = () => {
         <div className="card">
             <div className="card-image-clinica"></div>  
                 <h4 className="card-title">Clínica Medica</h4>
-                <p className="card-description">Thesis make with React</p>
+                <p className="card-description">End of course project created with react</p>
             <div className="card-container-buttons">
                 <a href="http://healthalgorithm.es/" target="_blank">Page</a>
                 <a href="https://github.com/JaviiAzagra/front-proyectofinal" target="_blank">GitHub</a>
@@ -49,10 +49,10 @@ export const Card4 = () => {
         <div className="card">
             <div className="card-image-cine"></div>
             <h4 className="card-title">The Cinephile</h4>
-            <p className="card-description">Luxury Cars page make with Angular</p>
+            <p className="card-description">React Project</p>
             <div className="card-container-buttons">
-                <a href="https://luxury-cars-two.vercel.app/" target="_blank">Page</a>
-                <a href="https://github.com/JaviiAzagra/Luxury-Cars-Angular-Project" target="_blank">GitHub</a>
+                <a href="https://the-cinephile.vercel.app/" target="_blank">Page</a>
+                <a href="https://github.com/Nagema/movies-final-project-react" target="_blank">GitHub</a>
             </div>
         </div>
     )
@@ -62,12 +62,12 @@ export const Card5 = () => {
     console.log('card')
     return (
         <div className="card">
-            <div className="card-image-luxury"></div>
-            <h4 className="card-title">Luxury Cars</h4>
-            <p className="card-description">Luxury Cars page make with Angular</p>
+            <div className="card-image-dado"></div>
+            <h4 className="card-title">Dado</h4>
+            <p className="card-description">Dado created with JavaScript</p>
             <div className="card-container-buttons">
-                <a href="https://luxury-cars-two.vercel.app/" target="_blank">Page</a>
-                <a href="https://github.com/JaviiAzagra/Luxury-Cars-Angular-Project" target="_blank">GitHub</a>
+                <a href="https://dado-eight.vercel.app/" target="_blank">Page</a>
+                <a href="https://github.com/JaviiAzagra/Dado" target="_blank">GitHub</a>
             </div>
         </div>
     )
@@ -77,12 +77,12 @@ export const Card6 = () => {
     console.log('card')
     return (
         <div className="card">
-            <div className="card-image-luxury"></div>
-            <h4 className="card-title">Luxury Cars</h4>
-            <p className="card-description">Luxury Cars page make with Angular</p>
+            <div className="card-image-pokemon"></div>
+            <h4 className="card-title">PokeApi</h4>
+            <p className="card-description">PokeApi created with JavaScript</p>
             <div className="card-container-buttons">
-                <a href="https://luxury-cars-two.vercel.app/" target="_blank">Page</a>
-                <a href="https://github.com/JaviiAzagra/Luxury-Cars-Angular-Project" target="_blank">GitHub</a>
+                <a href="https://pokeapi-ruby.vercel.app/" target="_blank">Page</a>
+                <a href="https://github.com/JaviiAzagra/Pokeapi" target="_blank">GitHub</a>
             </div>
         </div>
     )

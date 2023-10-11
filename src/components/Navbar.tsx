@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Navbar.scss";
 import { Switch } from "./Switch";
+import Hero from "./Hero";
 
 const Navbar = () => {
     const [hamburger, setHamburger] = useState(false);
@@ -12,11 +13,7 @@ const Navbar = () => {
     const pageUp = () => {
       window.scrollTo({ top: (0), behavior: "smooth" });
     };
-  
-    /* const home = () => {
-      window.scrollTo({ top: (href="#Home"), behavior: "smooth" });
-    }; */
-  
+
     return (
       <>
       <nav>
@@ -26,11 +23,11 @@ const Navbar = () => {
 
         <ul>
           <li>
-            <a onClick={pageUp} /* href="#Home" */>Home</a>
+            <a onClick={pageUp}>Home</a>
           </li>
 
           <li>
-            <a href="#About">About</a>
+            <a href="#About" >About</a>
           </li>
 
           <li>
@@ -44,10 +41,6 @@ const Navbar = () => {
           <li>
             <a href="#Contact">Contact</a>
           </li>
-
-          {/* <li className="switchnavbar">
-            <Switch/>
-          </li> */}
 
           <li onClick={() => hamburgerMenu()}>
             <i className="mobile-menu">
