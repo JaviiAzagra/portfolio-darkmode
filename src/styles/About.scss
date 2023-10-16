@@ -37,6 +37,10 @@
       padding: 0px 20px 0px 20px;
     }
   }
+
+  .about-card>h3{
+    padding-bottom: 12%;
+  }
 }
 
 @media screen and (max-width: 430px) {
@@ -44,11 +48,19 @@
     padding-top: 25%;
     padding-bottom: 25%;
   }
+
+  .about-card>h3{
+    padding-bottom: 12%;
+  }
 }
 
 @media screen and (max-width: 290px) {
   .about {
     padding-top: 25%;
     padding-bottom: 25%;
+  }
+
+  .about-card>h3{
+    padding-bottom: 12%;
   }
 }

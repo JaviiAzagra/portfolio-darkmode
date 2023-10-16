@@ -141,10 +141,10 @@
   .title-projects{
     padding-top: 25%;
     padding-bottom: 25%;
+  }
 
-    h3{
-      padding-bottom: 20px;
-    }
+  .title-projects>h3 {
+    padding-bottom: 12%;
   }
 
   .card {
@@ -161,7 +161,9 @@
     padding-top: 25%;
     padding-bottom: 25%;
   }
-  .title-projects>h3{
-    padding-bottom: 5%;
+  
+  .title-projects>h3 {
+    padding-bottom: 12%;
   }
+
 }
