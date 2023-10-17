@@ -1,4 +1,4 @@
-import { LayoutCards } from "./components/Card";
+import { AllProjects } from "./components/Projects";
 import Navbar from "./components/Navbar";
 import { MyProfile } from "./components/Perfil";
 import { Switch } from "./components/Switch";
@@ -19,7 +19,7 @@ const App = () => {
       <Title />
       <Hero/>
       <About/>
-      <LayoutCards />
+      <AllProjects />
       <More/>
       <Contact/>
       <Footer/>

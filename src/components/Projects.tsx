@@ -1,4 +1,4 @@
-export const Card = () => {
+export const Projects = () => {
     console.log('card')
     return (
         <div className="card">
@@ -13,7 +13,7 @@ export const Card = () => {
     )
 }
 
-export const Card2 = () => {
+export const Projects2 = () => {
     console.log('card')
     return (
         <div className="card">
@@ -28,7 +28,7 @@ export const Card2 = () => {
     )
 }
 
-export const Card3 = () => {
+export const Projects3 = () => {
     console.log('card')
     return (
         <div className="card">
@@ -43,7 +43,7 @@ export const Card3 = () => {
     )
 }
 
-export const Card4 = () => {
+export const Projects4 = () => {
     console.log('card')
     return (
         <div className="card">
@@ -58,7 +58,7 @@ export const Card4 = () => {
     )
 }
 
-export const Card5 = () => {
+export const Projects5 = () => {
     console.log('card')
     return (
         <div className="card">
@@ -73,7 +73,7 @@ export const Card5 = () => {
     )
 }
 
-export const Card6 = () => {
+export const Projects6 = () => {
     console.log('card')
     return (
         <div className="card">
@@ -88,17 +88,17 @@ export const Card6 = () => {
     )
 }
 
-export const LayoutCards = () => {
+export const AllProjects = () => {
     return (
         <div className="title-projects" id="Projects">
             <h3>[ Projects ]</h3>
             <div className="grid-cards">
-            <Card />
-            <Card2 />
-            <Card3 />
-            <Card4 />
-            <Card5 />
-            <Card6 />
+            <Projects />
+            <Projects2 />
+            <Projects3 />
+            <Projects4 />
+            <Projects5 />
+            <Projects6 />
         </div>
         </div>
         
