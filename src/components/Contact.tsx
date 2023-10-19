@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Contact.scss"
+import "../styles/Contact.scss";
 
 const Contact = () => {
   return (
@@ -14,7 +14,10 @@ const Contact = () => {
           <a href={"mailto: javiazagra12@gmail.com"}>javiazagra12@gmail.com</a>
         </p>
         <p>
-          <a href="https://www.linkedin.com/in/javier-azagra-garc%C3%ADa/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/javier-azagra-garc%C3%ADa/"
+            target="_blank"
+          >
             Linkedin
           </a>
         </p>
