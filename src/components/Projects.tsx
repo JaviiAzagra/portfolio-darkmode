@@ -95,7 +95,7 @@ export const Projects5 = () => {
       <h4 className="card-title">Dado</h4>
       <p className="card-description">Dado created with JavaScript</p>
       <div className="card-container-buttons">
-        <a href="https://dado-eight.vercel.app/" target="_blank">
+        <a href="https://dado-javiiazagra.vercel.app/" target="_blank">
           Page
         </a>
         <a href="https://github.com/JaviiAzagra/Dado" target="_blank">
