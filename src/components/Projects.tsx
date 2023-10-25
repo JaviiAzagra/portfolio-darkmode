@@ -125,6 +125,27 @@ export const Projects6 = () => {
   );
 };
 
+export const Projects7 = () => {
+  console.log("card");
+  return (
+    <div className="card">
+      <div className="card-image-github"></div>
+      <h4 className="card-title">GitHub Profile Clone</h4>
+      <p className="card-description">
+        A GitHub Profile Clone created with react.
+      </p>
+      <div className="card-container-buttons">
+        <a href="https://github.com/JaviiAzagra" target="_blank">
+          Page
+        </a>
+        <a href="https://github.com/JaviiAzagra/Github-Clone" target="_blank">
+          GitHub
+        </a>
+      </div>
+    </div>
+  );
+};
+
 export const AllProjects = () => {
   return (
     <div className="title-projects" id="Projects">
@@ -136,6 +157,7 @@ export const AllProjects = () => {
         <Projects4 />
         <Projects5 />
         <Projects6 />
+        <Projects7 />
       </div>
     </div>
   );
