@@ -32,6 +32,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
 
   span {
     font-size: 1rem;
