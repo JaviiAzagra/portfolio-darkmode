@@ -67,13 +67,14 @@ nav {
   align-items: center;
   align-content: center;
   position: fixed;
-  background-color: var(--background);
-  transition: all .5s ease-in-out;
+  /*   background-color: var(--background); */
+  transition: all 0.5s ease-in-out;
   top: 0;
   left: 0;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
   z-index: 200;
   align-items: center;
+  backdrop-filter: blur(10px);
 
   @media (max-width: 400px) {
     padding: 25px 0px 25px 0px;
@@ -90,8 +91,6 @@ nav {
     gap: 3rem;
     padding-right: 6%;
 
-    
-
     a {
       color: var(--text-primary);
       text-decoration: none;
@@ -107,8 +106,8 @@ nav {
 }
 
 @media (max-width: 400px) {
-  nav{
-    ul{
+  nav {
+    ul {
       gap: 0rem;
     }
   }
@@ -120,7 +119,7 @@ nav {
   padding-left: 6%;
 }
 
-.switchnavbar{
+.switchnavbar {
   width: 140px;
 }
 
@@ -128,6 +127,6 @@ nav {
   color: var(--text-primary);
 }
  */
-.mobile-menu>svg{
+.mobile-menu > svg {
   fill: var(--text-primary);
 }
